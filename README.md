@@ -1,10 +1,13 @@
 # MaterialFox
+
+Forked from [MaterialFox](https://github.com/muckSponge/MaterialFox)
+
 *A Material Design-inspired userChrome.css theme for Firefox*
 
 ![Preview](https://user-images.githubusercontent.com/5405629/45172944-21d91900-b24a-11e8-8bc5-03814121b0de.png)
 This theme is powered by blood, sweat, and coffee. If you like it, please consider helping out to support its continued development.
 
-[![Buy me a coffee](https://svgshare.com/i/8Yd.svg)](https://www.buymeacoffee.com/n4ho5QX2l)
+[![Buy muckSponge a coffee](https://svgshare.com/i/8Yd.svg)](https://www.buymeacoffee.com/n4ho5QX2l)
 
 ## What this does
 Inspired by Google's Material Design and their latest Google Chrome UI, this theme turns your Firefox into a Material-styled web browser. The aim was to style the browser as closely as possible to Google Chrome, where practical.
@@ -29,6 +32,9 @@ Replicate Chrome behaviour for clipped tabs:
 
 Replicate Chrome's "Not Secure" text on HTTP:
 * [about:config] Set ```security.insecure_connection_text.enabled``` to ```true```.
+
+Normal Context Menu
+* [about:config] Set ```browser.proton.contextmenus.enabled``` to ```false```.
 
 ## Please note
 * Linux is no longer officially supported but you can give it a try – if you'd like to work on it feel free to make a PR.
