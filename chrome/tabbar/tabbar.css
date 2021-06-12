@@ -227,7 +227,7 @@
 {
  	background: var(--tab-bgcolor) !important;
 	/* rounded top corners */
-	border-radius: 8px 8px 0 0 !important;
+	border-radius: 4px 4px 0 0 !important;
 	position: relative !important;
 	border: 0 !important;
 	transition:
@@ -519,7 +519,7 @@
 	content: "" !important;
 	position: absolute !important;
 	display: flex !important;
-	bottom: 0 !important;
+	bottom: 4px !important; /* EDITED to show bottom Container Line */
 	left: 8px !important;
 	width: calc(100% - 16px) !important;
 	height: 2px !important;
@@ -527,18 +527,22 @@
 	border-radius: 99px 99px 0 0 !important;
 	transform: none !important;
 	background: var(--identity-tab-color) !important;
+	/* Remove Animation
 	transition-property: top, bottom, left, right, width, height, border-radius;
 	transition-duration: .225s !important;
 	transition-timing-function: var(--ease-out) !important;
+	*/
 }
 
 .tab-bottom-line
 {
-	display: none !important;
+	display: -moz-box !important; /* EDITED to show bottom Container Line */
 }
 
 .tabbrowser-tab[usercontextid][selected] > .tab-stack::after
 {
+	/* Hide Weird Dot on Tab */
+	display: none !important;
 	bottom: calc(100% - 9px) !important;
 	left: calc(100% - 9px) !important;
 	width: 6px !important;

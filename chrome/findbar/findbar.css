@@ -14,7 +14,7 @@
 hbox[anonid="findbar-textbox-wrapper"]
 {
 	background-color: var(--toolbar-field-background-color) !important;
-	border-radius: 16px !important;
+	border-radius: 5px !important;	/* EDITED 16px*/
 	position: relative !important;
 	display: flex !important;
 	padding: 2px !important;
@@ -31,10 +31,14 @@ hbox[anonid="findbar-textbox-wrapper"]:focus-within
 {
 	background-color: var(--toolbar-field-focus-background-color) !important;
 	/* won't work in a var... */
-	border: 2px solid -moz-accent-color !important;
+	border: 0 solid -moz-accent-color !important; /* EDITED 2px */
+	/*
 	margin: -1px !important;
 	padding: 1px !important;
 	height: 30px !important;
+	*/
+	padding: 2px !important;
+	height: 28px !important;
 }
 
 hbox[anonid="findbar-textbox-wrapper"] toolbarbutton

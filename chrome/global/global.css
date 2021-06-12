@@ -8,7 +8,7 @@
 			{
 				:root[tabsintitlebar] .titlebar-button
 				{
-					transform: translateY(-8px) !important;
+					transform: translateY(0) !important;
 				}
 				
 				@media (-moz-windows-accent-color-in-titlebar: 0)

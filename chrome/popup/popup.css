@@ -1,3 +1,17 @@
+/* Weird dot in Search Bar */
+menupopup.textbox-contextmenu
+{
+	display: none;
+}
+
+#PopupAutoCompleteRichResult, #PopupSearchAutoComplete
+{
+	border: 1px solid grey !important;
+	border-radius: 1px !important;
+	/* Vllt margin-top und border-top noch ändern */
+}
+
+/*
 menupopup
 {
 	appearance: none !important;
@@ -6,14 +20,12 @@ menupopup
 	-moz-context-properties: fill, fill-opacity !important;
 	fill: currentColor !important;
 }
-
 menuitem,
 menu > menu,
 menupopup > menu
 {
 	appearance: none !important;
 }
-
 menuitem[disabled],
 menu[disabled]
 {
@@ -37,3 +49,4 @@ menuitem[type=radio] .menu-iconic-icon
 	height: 16px !important;
 	margin-inline-start: 0 !important;
 }
+*/
