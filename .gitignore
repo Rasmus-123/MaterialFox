@@ -1,3 +1,6 @@
+# Custom Folder
+chrome/custom/*
+
 # macOS
 # General
 .DS_Store
